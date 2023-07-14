@@ -1,0 +1,6 @@
+curl -X POST \
+  -H "Content-Type: application/json" \
+  -d '{
+    "persistedQueryId": "afbec3e19824099ac791ba23691143f5"
+  }' \
+  http://localhost:5000/persistedqueries
