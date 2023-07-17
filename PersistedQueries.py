@@ -60,7 +60,6 @@ class Query(ObjectType):
 
 schema = Schema(query=Query)
 
-schema = Schema(query=Query)
 
 query = '''
 query {
